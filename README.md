@@ -1,4 +1,3 @@
 Buenas tardes.
-Agregué una nueva página de html de estudiantes, que se puede acceder por el header en su link correspondiente.
-Dividí el archivo main.js para que cuando ingresaran a estudiantes solamente se aplicara ahí el dom y no a la página de inicio.
-En la página de estudiantes al ingresar crea una lista de estudiantes correspondiente a los objetos creados previamente en el js.
+Agregué una página en la que se podrá ver la condición del estudiante, pasando el simulador de condición que tenía con alert y prompt al DOM con eventos de click dentro del html correspondiente a ese apartado.
+En la página de Estudiantes, además de la lista de los mismos, se puede agregar uno nuevo cargando los datos en el formulario para luego reflejarse en el DOM.
