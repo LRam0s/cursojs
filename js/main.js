@@ -6,7 +6,7 @@ let asistencia;
 let condicion;
 const boton = document.getElementById('boton');
 let contenedor2 = document.createElement('div');
-const containerRatings = document.getElementById('container_ratings');
+const containerRatings = document.getElementById('container_condition');
 
 function condicionAlumno(primerParcial, segundoParcial, asistencia) {
   if (primerParcial >= 4 && primerParcial <= 10 && segundoParcial >= 4 && segundoParcial <= 10 && asistencia >= 30 * 0.8 && asistencia <= 30) {
